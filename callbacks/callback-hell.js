@@ -8,8 +8,6 @@ fs.readFile('input.txt','utf8',(err,data)=>{
         return
     }
     
-
-
 const modifyFileData= data.toUpperCase();
 
 fs.writeFile('output.txt', modifyFileData, (err) => {
